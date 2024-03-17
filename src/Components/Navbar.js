@@ -27,10 +27,10 @@ const Navbar = () => {
 
           <div className="d-flex align-items-center">
             <div className="field has-addons border border-dark d-flex" style={{ borderRadius: '100px', padding: '5px' }}>
-              <input type="text" className="input mx-1 border-0 bg-transparent" style={{ padding: '5px', borderRadius: '100px', minWidth: '150px' }} placeholder="Search Destination" />
-              <input type="date" className="input mx-1 border-0 bg-transparent" style={{ padding: '5px', borderRadius: '100px', minWidth: '120px' }} placeholder="Start date" />
-              <input type="date" className="input mx-1 border-0 bg-transparent" style={{ padding: '5px', borderRadius: '100px', minWidth: '120px' }} placeholder="End date" />
-              <input type="text" className="input mx-1 border-0 bg-transparent" style={{ padding: '5px', borderRadius: '100px', minWidth: '120px' }} placeholder="Add guests" />
+              <input type="text" className="input1 mx-1 border-0 bg-transparent" style={{ padding: '5px', borderRadius: '100px', minWidth: '150px' }} placeholder="Search Destination" />
+              <input type="date" className="input1 mx-1 border-0 bg-transparent" style={{ padding: '5px', borderRadius: '100px', minWidth: '120px' }} placeholder="Start date" />
+              <input type="date" className="input1 mx-1 border-0 bg-transparent" style={{ padding: '5px', borderRadius: '100px', minWidth: '120px' }} placeholder="End date" />
+              <input type="text" className="input1 mx-1 border-0 bg-transparent" style={{ padding: '5px', borderRadius: '100px', minWidth: '120px' }} placeholder="Add guests" />
               <button type="button" className="mx-1 btn border-0 bg-transparent"><img src="/assets/magnifying-glass.png" width="25" alt="" /></button>
             </div>
             {/* Prevent event bubbling for buttons */}
